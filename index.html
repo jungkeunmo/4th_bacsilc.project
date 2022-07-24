@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <link rel="stylesheet" href="./resource/styles.css">
+</head>
+<body>
+    <!-- IMAGE SLIDER-->
+    <section class="sec">
+        <h2 class="projectTitle">IMAGE SLIDER</h2>
+
+        <div class="imgWrapper">
+            <img 
+                id="view-js"
+                class="slideImage"
+                src="https://i.pinimg.com/474x/6c/99/21/6c99219b22a7bc6cc08f92bb1245c965.jpg" 
+            />
+
+            <button class="pButton" onclick="javascript:imageChangeHandler()">PREV</button>
+            <button class="nButton" onclick="javascript:imageChangeHandler()">NEXT</button>
+        </div>
+    </section>
+
+    <!-- CALCULATOR -->
+    <section class="sec">
+        <h2 class="projectTitle">CALCULATOR</h2>
+
+        <div class="answerView" id="calView-js"></div>
+
+        <div class="numberArea">
+            <button onclick="javascript:numberClickHandler(7)">7</button>
+            <button onclick="javascript:numberClickHandler(8)">8</button>
+            <button onclick="javascript:numberClickHandler(9)">9</button>
+        </div>
+
+        <div class="numberArea">
+            <button onclick="javascript:numberClickHandler(4)">4</button>
+            <button onclick="javascript:numberClickHandler(5)">5</button>
+            <button onclick="javascript:numberClickHandler(6)">6</button>
+        </div>
+
+        <div class="numberArea">
+            <button onclick="javascript:numberClickHandler(1)">1</button>
+            <button onclick="javascript:numberClickHandler(2)">2</button>
+            <button onclick="javascript:numberClickHandler(3)">3</button>
+        </div>
+
+        <div class="numberArea">
+            <button onclick="javascript:initValue()">C</button>
+            <button onclick="javascript:numberClickHandler(0)">0</button>
+            <button onclick="javascript:initValue()">AC</button>
+        </div>
+
+        <div class="numberArea">
+            <button onclick="javascript:plusHandler()">+</button>
+            <button onclick="javascript:minusHandler()">-</button>
+            <button onclick="javascript:divideHandler()">/</button>
+            <button onclick="javascript:multiplyHandler()">*</button>
+            <button onclick="javascript:calulate()">=</button>
+        </div>
+    </section>
+</body>
+<script src="./resource/slide.js"></script>
+</html>

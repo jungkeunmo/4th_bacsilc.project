@@ -1,0 +1,107 @@
+.sec {
+    width: 100%;
+    height: 100vh;
+
+    border-radius: 6px;
+    box-shadow: 4px 4px 6px #999;
+}
+
+.sec .projectTitle {
+    padding: 5px;
+    
+    border-bottom: 1px solid #999;
+    background: linear-gradient(darkgreen, green);
+    color: #fff;
+    border-radius: 6px;
+}
+
+.imgWrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.imgWrapper .slideImage {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.imgWrapper .pButton {
+   position: absolute;
+   top: 35%;
+   left: 10px;
+}
+
+.imgWrapper .nButton {
+    position: absolute;
+    top: 35%;
+    right: 10px;
+ }
+
+.imgWrapper button {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.imgWrapper button:hover {
+    color: #999;
+}
+
+.answerView {
+    width: 250px;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.numberArea {
+    width: 250px;
+    height: 50px;
+    margin: 10px 0px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.numberArea button {
+    background: slategrey;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.numberArea button {
+    background: slategrey;
+    color: #fff;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.numberArea button:hover {
+    border: 1px solid slategrey;
+    color: slategrey;
+    background: #fff;
+}
